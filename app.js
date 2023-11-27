@@ -1,3 +1,9 @@
+let loader = document.querySelector(".loader")
+
+function myFunction(){
+    loader.style.display = "none"
+}
+
 let parallax_el = document.querySelectorAll(".parallax")
 
 let xValue = 0, yValue = 0;
